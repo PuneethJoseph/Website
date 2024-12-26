@@ -15,11 +15,13 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color:#777;
+   /* color:#777;*/
+   color:#8e8d8a;
 }
 html, body {
     margin: 0;
     padding: 0;
+    background-color:  #eae7dc;
 }
 
 .nav ul{
@@ -33,7 +35,7 @@ html, body {
 .nav a{
     display: inline;
     padding: .5em;
-    color: rgb(223, 23, 46);
+    color: rgb(3, 3, 3);
     text-decoration: none;
 }
 
@@ -42,22 +44,26 @@ html, body {
     font-size: 1.1em;
     font-weight:lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color:  #eae7dc;
 }
 
 .main-nav li {
     padding: 0 5%;
 }
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .5);
 }
  
 .main-header {
-    background-color: #56CCF2;
-    background-blend-mode:normal ;
+    /* background-color: #56CCF2; */
+    background-color: #d8c3a5;
+    background-blend-mode:difference ;
     background-position: center;
     background-size: 2024px 1024px;
-    width: 2000px;
-    height: 400px;
+    /*width: 2000px;
+    height: 200px;*/
+    width: 100%;
+    height: 100%;
     padding-bottom: 30px;
 }
 .my-name {
@@ -66,10 +72,10 @@ html, body {
     font-size: 4em;
     font-family: "Booter -Zero Zero";
     font-weight: normal;
-    color: rgba(235, 7, 7, 0.968);
+    color: #e85a4f;
 }
 .my-name-large {
-    font-size: 8em;
+    font-size: 7em;
 }
 
 .content-section {
@@ -84,23 +90,23 @@ html, body {
 .section-header {
     font-family: "Tinos";
     font-weight: normal;
-    color: #5203e6;
+    color: #e98074;
     text-align: center;
     font-size: 2.5em;
 }
 
 .my-image {
     float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
+    height: 155px;
+    width: 190px;
+    margin: 2px;
     border-radius: 50%;
 }
 
 .main-footer {
-    background-color: #56CCF2;
-    color: white;
+    background-color: #d8c3a5;
     padding: .25em 0;
+    text-align: left;
 }
 
 .main-footer-container {
@@ -109,18 +115,27 @@ html, body {
 }
 
 .main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
+    flex-grow: 5;
+    text-align: start;
 }
 
 .footer-nav li {
-    padding: 0 .5em;
+    padding: 0 ;
 }
 
 .footer-nav img {
     width: 30px;
     height: 30px;
 }
+
+.footer-text {
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter -Zero Zero";
+    font-weight: normal;
+    color: #e85a4f;
+}
+
 
 .btn {
     text-align: center;
@@ -200,3 +215,5 @@ html, body {
 .table-style {
     width:max-content;
 }
+
+  
