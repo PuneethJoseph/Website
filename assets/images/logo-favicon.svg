@@ -1,0 +1,5 @@
+<svg width="32" height="32" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <!-- Simplified P & J monogram for favicon -->
+    <circle cx="60" cy="60" r="55" fill="#1e3a5f" stroke="#d4af37" stroke-width="3"/>
+    <text x="60" y="70" fill="#d4af37" font-family="Georgia, serif" font-weight="bold" font-size="48" text-anchor="middle" dominant-baseline="central">PJ</text>
+</svg>

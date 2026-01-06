@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puneeth Joseph - Resume</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.75in;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #1e3a5f;
+            background: white;
+            font-size: 11pt;
+        }
+
+        /* Resume Styles */
+
+        .resume-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #d4af37;
+        }
+
+        .resume-header h1 {
+            font-size: 28pt;
+            color: #1e3a5f;
+            margin-bottom: 8px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .resume-header h2 {
+            font-size: 14pt;
+            color: #2c5282;
+            margin-bottom: 12px;
+            font-weight: normal;
+        }
+
+        .resume-header .contact-info {
+            font-size: 10pt;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .resume-header .contact-info .contact-link {
+            color: #555;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @media screen {
+            .resume-header .contact-info .contact-link:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .resume-section {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+
+        .resume-section-title {
+            font-size: 14pt;
+            color: #1e3a5f;
+            font-weight: bold;
+            margin-bottom: 12px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #d4af37;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .resume-section-content {
+            font-size: 10.5pt;
+            line-height: 1.7;
+        }
+
+        .summary-text {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .skill-category {
+            margin-bottom: 12px;
+        }
+
+        .skill-category h4 {
+            font-size: 11pt;
+            color: #2c5282;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skill-category li {
+            padding: 2px 0;
+            padding-left: 15px;
+            position: relative;
+            font-size: 10pt;
+        }
+
+        .skill-category li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #d4af37;
+            font-weight: bold;
+        }
+
+        .experience-item {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .experience-title {
+            font-size: 12pt;
+            color: #1e3a5f;
+            font-weight: bold;
+        }
+
+        .experience-company {
+            font-size: 11pt;
+            color: #2c5282;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .experience-location {
+            font-size: 10pt;
+            color: #888;
+            font-style: italic;
+        }
+
+        .experience-date {
+            font-size: 10pt;
+            color: #d4af37;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .experience-description {
+            font-style: italic;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 10pt;
+        }
+
+        .experience-achievements {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 8px;
+        }
+
+        .experience-achievements li {
+            padding: 3px 0;
+            padding-left: 20px;
+            position: relative;
+            font-size: 10pt;
+            line-height: 1.6;
+        }
+
+        .experience-achievements li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #d4af37;
+            font-weight: bold;
+        }
+
+        .education-item, .certification-item {
+            margin-bottom: 12px;
+        }
+
+        .education-degree, .certification-name {
+            font-size: 11pt;
+            color: #1e3a5f;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .education-school, .certification-org {
+            font-size: 10pt;
+            color: #555;
+            margin-bottom: 2px;
+        }
+
+        .education-date, .certification-date {
+            font-size: 10pt;
+            color: #888;
+            font-style: italic;
+        }
+
+        .additional-info {
+            font-size: 10pt;
+            line-height: 1.8;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .resume-section {
+                page-break-inside: avoid;
+            }
+            .experience-item {
+                page-break-inside: avoid;
+            }
+            /* Contact links look like plain text in PDF */
+            .resume-header .contact-info .contact-link {
+                color: #555 !important;
+                text-decoration: none !important;
+            }
+        }
+
+        @media screen {
+            body {
+                max-width: 8.5in;
+                margin: 0 auto;
+                padding: 20px;
+                background: #f5f5f5;
+            }
+            .resume {
+                background: white;
+                padding: 40px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Resume -->
+    <div class="resume">
+        <div class="resume-header">
+            <h1>PUNEETH JOSEPH</h1>
+            <h2>Principal Software Engineer</h2>
+            <div class="contact-info">
+                Stuttgart, 73760, Germany | +49 151 1242 1175<br>
+                <span class="contact-link" data-href="mailto:puneeth.joseph@yahoo.com">puneeth.joseph@yahoo.com</span> | 
+                <span class="contact-link" data-href="https://www.linkedin.com/in/puneethjoseph">LinkedIn</span> | 
+                <span class="contact-link" data-href="https://github.com/puneethjoseph">GitHub</span>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Professional Summary</div>
+            <div class="resume-section-content">
+                <p class="summary-text">
+                    Principal Software Engineer with 14+ years of experience specializing in automotive operating systems and ADAS Domain Controller development. Led development and integration of MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform enabling software-driven architecture. Expert in software-driven vehicle architecture integration, Adaptive AUTOSAR, QNX, Linux, and embedded systems architecture. Proven track record at Mercedes-Benz Group and Robert Bosch, delivering next-generation software-driven automotive platforms integrating multiple sensor technologies (Cameras, Radar, Lidar, Ultrasonic). Strong background in software architecture, system integration, and cross-functional collaboration with platform teams, application developers and external partners.
+                </p>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Technical Skills</div>
+            <div class="resume-section-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Automotive Software Architecture</h4>
+                        <ul>
+                            <li>MB.OS (Mercedes-Benz Operating System)</li>
+                            <li>Software-Driven Architecture</li>
+                            <li>Adaptive AUTOSAR, AUTOSAR Classic</li>
+                            <li>QNX, Linux, POSIX Systems</li>
+                            <li>Service-Oriented Architecture (SOA)</li>
+                            <li>Embedded Software Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Programming & Scripting</h4>
+                        <ul>
+                            <li>C++, C</li>
+                            <li>Shell Scripting</li>
+                            <li>Python (automation & tooling)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Development Tools & Platforms</h4>
+                        <ul>
+                            <li>QNX Momentics IDE</li>
+                            <li>Nvidia Drive Platform (Orin SoC)</li>
+                            <li>Debugging Tools (GDB, JTAG)</li>
+                            <li>CI/CD Tools</li>
+                            <li>Git, SVN</li>
+                            <li>Hypervisor Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Domain Expertise</h4>
+                        <ul>
+                            <li>MB.OS Development & Integration</li>
+                            <li>ADAS Domain Controllers</li>
+                            <li>ECU Development & Integration</li>
+                            <li>Virtual ECU (vECU) Development</li>
+                            <li>Image Processing (CNN, SSD)</li>
+                            <li>Sensor Integration</li>
+                            <li>Navigation Systems Middleware</li>
+                            <li>Over-the-Air (OTA) Updates</li>
+                            <li>Level 3 Autonomous Driving Systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Professional Experience</div>
+            <div class="resume-section-content">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Principal Software Integrator</div>
+                            <div class="experience-company">Mercedes-Benz Group</div>
+                            <div class="experience-location">Stuttgart, Germany</div>
+                        </div>
+                        <div class="experience-date">July 2021 - October 2025</div>
+                    </div>
+                    <p class="experience-description">
+                        Lead Software Integrator for Mercedes-Benz Operating System (MB.OS) development and ADAS Domain Controller projects, delivering next-generation software-driven architecture and platform solutions integrating Linux, QNX, AUTOSAR Classic, and AUTOSAR Adaptive systems.
+                    </p>
+                    <ul class="experience-achievements">
+                        <li>Developed and integrated MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform for the Mercedes Modular Architecture (MMA), enabling software-driven architecture with over-the-air updates and full software stack control</li>
+                        <li>Developed and integrated multi-sensor ADAS platform supporting Cameras, Ultrasonic sensors, Radar, and Lidar technologies. Integrated dual-OS architecture (QNX for production safety-critical systems and Linux for development) and Nvidia Drive platform with Orin system-on-chip (SoC) for advanced computing capabilities, supporting Level 3 autonomous driving features</li>
+                        <li>Collaborated with platform teams, application developers, and external partners (including Nvidia) to define software architecture and integration strategies</li>
+                        <li>Maintained and released Bring-Up Software for Release Boards, enabling pre-delivery evaluation and validation of release software</li>
+                        <li>Served as Technical Contact Partner for internal and external customers, providing expertise on software integration and troubleshooting</li>
+                        <li>Customized QNX OS for custom ECU hardware from Nvidia and Qualcomm using QNX Momentics IDE</li>
+                        <li>Designed embedded software architecture for microprocessor-based automotive systems</li>
+                        <li>Implemented Service-Oriented Architecture solutions for embedded domain</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Specialist Software Engineer</div>
+                            <div class="experience-company">Robert Bosch Engineering and Business Solutions</div>
+                            <div class="experience-location">Bengaluru, India</div>
+                        </div>
+                        <div class="experience-date">August 2013 - June 2021</div>
+                    </div>
+                    <p class="experience-description">
+                        Developed ADAS software components and middleware solutions for automotive ECUs, working on cutting-edge projects including Virtual ECU development and AI-based object detection systems.
+                    </p>
+                    <ul class="experience-achievements">
+                        <li>Developed virtual ECU (vECU) software solutions for multiple OEMs, enabling simulation and testing of real ECU functionality</li>
+                        <li>Designed and optimized Adaptive AUTOSAR-based applications for real-time object detection, processing frame data from camera sensors</li>
+                        <li>Deployed deep learning algorithms (CNN and SSD) for object detection and classification on High Performance Computing platforms</li>
+                        <li>Contributed to middleware development for navigation systems, implementing both basic and advanced navigation features</li>
+                        <li>Architected Proof of Concept (POC) solution integrating Android, Telematics (QNX), and Bosch Navigation System (Linux) using Hypervisor technology</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Software Developer</div>
+                            <div class="experience-company">Wipro Technologies</div>
+                            <div class="experience-location">Bengaluru, India</div>
+                        </div>
+                        <div class="experience-date">August 2010 - July 2013</div>
+                    </div>
+                    <p class="experience-description">
+                        Led platform migration project, porting EVDO application software from Solaris to Linux-based hardware platform.
+                    </p>
+                    <ul class="experience-achievements">
+                        <li>Successfully ported C++ application codebase and shell scripts from Solaris to Linux platform</li>
+                        <li>Implemented Linux-specific wrappers for shell commands, ensuring seamless functionality across platforms</li>
+                        <li>Resolved endianness compatibility issues in C++ codebase for cross-platform support</li>
+                        <li>Enhanced application features during migration process</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Education</div>
+            <div class="resume-section-content">
+                <div class="education-item">
+                    <div class="education-degree">Bachelor of Engineering in Information Science</div>
+                    <div class="education-school">Visvesvaraya Technological University</div>
+                    <div class="education-date">Bengaluru, India | July 2007 - June 2010</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Certifications</div>
+            <div class="resume-section-content">
+                <div class="certification-item">
+                    <div class="certification-name">Certified Scrum Product Owner® (CSPO®)</div>
+                    <div class="certification-org">Scrum Alliance</div>
+                    <div class="certification-date">December 2023</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Additional Information</div>
+            <div class="resume-section-content">
+                <div class="additional-info">
+                    <p><strong>Languages:</strong> English (Fluent), German (Working Proficiency), Hindi (Native)</p>
+                    <p><strong>Interests:</strong> Reading, Performance Monitoring, Football, Technology Research</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Make contact links clickable without showing URLs in PDF
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactLinks = document.querySelectorAll('.contact-link');
+            contactLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    const href = this.getAttribute('data-href');
+                    if (href) {
+                        window.open(href, '_blank');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

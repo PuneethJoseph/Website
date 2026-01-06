@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Puneeth Joseph - Principal Software Integrator | ADAS & Automotive Software Expert</title>
+    <meta name="title" content="Puneeth Joseph - Principal Software Integrator | ADAS & Automotive Software Expert">
+    <meta name="description" content="Principal Software Engineer with 14+ years of experience. Led MB.OS (Mercedes-Benz Operating System) development and software-driven architecture integration. Expert in ADAS Domain Controllers, Adaptive AUTOSAR, QNX, Linux, and automotive software integration. Formerly at Mercedes-Benz Group.">
+    <meta name="keywords" content="Puneeth Joseph, Software Engineer, ADAS, AUTOSAR, QNX, Embedded Systems, Automotive Software, Mercedes-Benz, Principal Software Integrator">
+    <meta name="author" content="Puneeth Joseph">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://puneethjoseph.in">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://puneethjoseph.in">
+    <meta property="og:title" content="Puneeth Joseph - Principal Software Integrator">
+    <meta property="og:description" content="Principal Software Engineer. Led MB.OS (Mercedes-Benz Operating System) development and software-driven architecture integration. Expert in ADAS Domain Controllers, Adaptive AUTOSAR, QNX, Linux, and embedded systems.">
+    <meta property="og:image" content="https://puneethjoseph.in/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://puneethjoseph.in">
+    <meta property="twitter:title" content="Puneeth Joseph - Principal Software Integrator">
+    <meta property="twitter:description" content="Principal Software Engineer specializing in ADAS Domain Controller development and automotive software integration.">
+    <meta property="twitter:image" content="https://puneethjoseph.in/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/images/logo-favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Puneeth Joseph",
+      "jobTitle": "Principal Software Engineer",
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Mercedes-Benz Group"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Stuttgart",
+        "postalCode": "73760",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/puneethjoseph"
+      ],
+      "knowsAbout": [
+        "MB.OS (Mercedes-Benz Operating System)",
+        "Adaptive AUTOSAR",
+        "QNX",
+        "Linux",
+        "ADAS Domain Controllers",
+        "Embedded Systems",
+        "Automotive Software",
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            /* Classical Professional Color Palette */
+            --primary-color: #1e3a5f;        /* Deep Navy Blue - Classic & Professional */
+            --secondary-color: #2c5282;      /* Medium Navy - Sophisticated */
+            --accent-color: #d4af37;        /* Rich Gold - Elegant & Interesting */
+            --accent-secondary: #b8860b;   /* Darker Gold - Depth */
+            --bg-light: #faf9f6;           /* Warm Ivory - Classical */
+            --bg-dark: #1a1a1a;            /* Deep Charcoal - Modern Dark */
+            --text-light: #2c3e50;         /* Charcoal Gray - Readable */
+            --text-dark: #e8e6e1;          /* Warm Off-White - Easy on Eyes */
+            --card-light: #ffffff;          /* Pure White - Clean */
+            --card-dark: #2d2d2d;           /* Dark Gray - Sophisticated */
+            --border-light: #d4c5b9;        /* Warm Beige - Subtle */
+            --border-dark: #404040;         /* Dark Gray Border */
+            --shadow-color: rgba(30, 58, 95, 0.15);  /* Navy Shadow */
+            --shadow-dark: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-light);
+            background: var(--bg-light);
+            transition: background 0.3s ease, color 0.3s ease;
+            overflow-x: hidden;
+        }
+
+        body.dark-mode {
+            background: var(--bg-dark);
+            color: var(--text-dark);
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.03;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Theme Toggle */
+        .theme-toggle, .language-toggle {
+            position: fixed;
+            top: 20px;
+            z-index: 1000;
+            background: var(--card-light);
+            border: 2px solid var(--border-light);
+            border-radius: 50px;
+            padding: 10px 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle {
+            right: 20px;
+        }
+
+        .language-toggle {
+            right: 180px;
+        }
+
+        body.dark-mode .theme-toggle, body.dark-mode .language-toggle {
+            background: var(--card-dark);
+            border-color: var(--border-dark);
+        }
+
+        .theme-toggle:hover, .language-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            .theme-toggle {
+                right: 10px;
+                top: 10px;
+            }
+            .language-toggle {
+                right: 10px;
+                top: 70px;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 60%, var(--accent-color) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px var(--shadow-color);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Logo Styles */
+        .logo-container {
+            margin-bottom: 20px;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            display: block;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05) rotate(5deg);
+        }
+
+        .logo-circle {
+            fill: rgba(255, 255, 255, 0.15);
+            stroke: var(--accent-color);
+            stroke-width: 3;
+        }
+
+        .logo-text {
+            fill: white;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 48px;
+            text-anchor: middle;
+            dominant-baseline: central;
+        }
+
+        .logo-monogram {
+            fill: white;
+            stroke: var(--accent-color);
+            stroke-width: 2;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+        }
+
+        .logo-accent {
+            fill: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                width: 90px;
+                height: 90px;
+            }
+            .logo-text {
+                font-size: 36px;
+            }
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            animation: fadeInUp 0.8s ease 0.1s both;
+        }
+
+        .header h2 {
+            font-size: 1.5em;
+            font-weight: 300;
+            opacity: 0.95;
+            margin-bottom: 30px;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 1em;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .contact-info a, .contact-info span {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-info a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Content Sections */
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .section {
+            background: var(--card-light);
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+            animation: fadeIn 0.6s ease;
+        }
+
+        body.dark-mode .section {
+            background: var(--card-dark);
+            border-color: var(--border-dark);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px var(--shadow-color);
+        }
+
+        body.dark-mode .section:hover {
+            box-shadow: 0 12px 24px var(--shadow-dark);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-title i {
+            font-size: 0.8em;
+        }
+
+        .summary {
+            font-size: 1.1em;
+            line-height: 1.9;
+            color: var(--text-light);
+            text-align: justify;
+        }
+
+        body.dark-mode .summary {
+            color: var(--text-dark);
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .skill-category {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.04), rgba(44, 82, 130, 0.04));
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .skill-category {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.15), rgba(44, 82, 130, 0.15));
+        }
+
+        .skill-category:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 16px var(--shadow-color);
+            border-left-color: var(--accent-color);
+        }
+
+        .skill-category h3 {
+            color: var(--primary-color);
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skill-category li {
+            padding: 8px 0;
+            color: var(--text-light);
+            position: relative;
+            padding-left: 25px;
+            transition: all 0.2s ease;
+        }
+
+        body.dark-mode .skill-category li {
+            color: var(--text-dark);
+        }
+
+        .skill-category li:hover {
+            padding-left: 30px;
+        }
+
+        .skill-category li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .skill-category li:hover:before {
+            transform: scale(1.3);
+        }
+
+        /* Experience Items */
+        .experience-item {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--border-light);
+            position: relative;
+        }
+
+        body.dark-mode .experience-item {
+            border-bottom-color: var(--border-dark);
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 3px solid var(--card-light);
+        }
+
+        body.dark-mode .experience-item::before {
+            border-color: var(--card-dark);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .job-title {
+            font-size: 1.5em;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .job-date {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        .company {
+            color: var(--text-light);
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        body.dark-mode .company {
+            color: var(--text-dark);
+        }
+
+        .location {
+            color: var(--accent-color);
+            font-size: 1em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .job-description {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            font-style: italic;
+            font-size: 1.05em;
+            padding: 15px;
+            background: linear-gradient(90deg, rgba(30, 58, 95, 0.05), rgba(212, 175, 55, 0.03));
+            border-radius: 8px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        body.dark-mode .job-description {
+            color: var(--text-dark);
+            background: linear-gradient(90deg, rgba(30, 58, 95, 0.2), rgba(212, 175, 55, 0.1));
+        }
+
+        .job-achievements {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .job-achievements li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.8;
+            transition: all 0.2s ease;
+        }
+
+        body.dark-mode .job-achievements li {
+            color: var(--text-dark);
+        }
+
+        .job-achievements li:hover {
+            padding-left: 35px;
+        }
+
+        .job-achievements li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.04), rgba(212, 175, 55, 0.02));
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body.dark-mode .project-card {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.15), rgba(212, 175, 55, 0.08));
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+            box-shadow: 0 12px 24px var(--shadow-color);
+        }
+
+        .project-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .contra-teaser-card {
+            border: 2px solid rgba(30, 58, 95, 0.2);
+        }
+
+        .contra-teaser-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 12px 24px var(--shadow-color);
+        }
+
+        body.dark-mode .contra-teaser-card {
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .project-title {
+            font-size: 1.3em;
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            color: var(--text-light);
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        body.dark-mode .project-description {
+            color: var(--text-dark);
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .tech-tag:hover {
+            background: linear-gradient(135deg, var(--accent-secondary), var(--accent-color));
+            transform: translateY(-2px);
+        }
+
+        /* Contact Form */
+        .contact-form {
+            margin-top: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid var(--border-light);
+            border-radius: 8px;
+            font-size: 1em;
+            font-family: inherit;
+            transition: all 0.3s ease;
+            background: var(--card-light);
+            color: var(--text-light);
+        }
+
+        body.dark-mode .form-group input,
+        body.dark-mode .form-group textarea {
+            background: var(--card-dark);
+            border-color: var(--border-dark);
+            color: var(--text-dark);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(212, 175, 55, 0.4);
+            background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .form-message {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .form-message.success {
+            background: rgba(34, 197, 94, 0.1);
+            color: #16a34a;
+            border: 1px solid #16a34a;
+        }
+
+        .form-message.error {
+            background: rgba(239, 68, 68, 0.1);
+            color: #dc2626;
+            border: 1px solid #dc2626;
+        }
+
+        /* Education & Certifications */
+        .education-item, .certification-item {
+            padding: 25px;
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.04), rgba(212, 175, 55, 0.02));
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .education-item, body.dark-mode .certification-item {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.15), rgba(212, 175, 55, 0.08));
+        }
+
+        .education-item:hover, .certification-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 16px var(--shadow-color);
+            border-left-color: var(--accent-color);
+        }
+
+        .education-degree, .certification-name {
+            font-size: 1.3em;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .education-school, .certification-org {
+            color: var(--text-light);
+            margin-bottom: 5px;
+            font-size: 1.05em;
+        }
+
+        body.dark-mode .education-school, body.dark-mode .certification-org {
+            color: var(--text-dark);
+        }
+
+        .education-date, .certification-date {
+            color: var(--accent-color);
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+
+        /* Additional Info */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.04), rgba(212, 175, 55, 0.02));
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode .info-card {
+            background: linear-gradient(135deg, rgba(30, 58, 95, 0.15), rgba(212, 175, 55, 0.08));
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px var(--shadow-color);
+        }
+
+        .info-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .info-card p {
+            color: var(--text-light);
+            font-size: 0.95em;
+        }
+
+        body.dark-mode .info-card p {
+            color: var(--text-dark);
+        }
+
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .interest-tag {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.95em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+
+        .interest-tag:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            color: var(--text-light);
+            border-top: 1px solid var(--border-light);
+        }
+
+        body.dark-mode .footer {
+            border-top-color: var(--border-dark);
+            color: var(--text-dark);
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .header {
+                padding: 40px 20px;
+            }
+            .section {
+                padding: 25px;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+            .skills-grid, .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            .theme-toggle, .language-toggle {
+                padding: 8px 12px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .theme-toggle, .contact-form {
+                display: none;
+            }
+            .section {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+    
+    <!-- Google Analytics (Replace with your tracking ID) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <div class="language-toggle" onclick="toggleLanguage()">
+        <i class="fas fa-language" id="language-icon"></i>
+        <span id="language-text">EN</span>
+    </div>
+    
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon" id="theme-icon"></i>
+        <span id="theme-text">Dark</span>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <svg class="logo" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Outer Circle -->
+                        <circle cx="60" cy="60" r="55" class="logo-circle"/>
+                        <!-- Inner Decorative Circle -->
+                        <circle cx="60" cy="60" r="45" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+                        
+                        <!-- Monogram P & J -->
+                        <!-- Letter P -->
+                        <text x="40" y="70" class="logo-text" font-size="56" font-weight="bold">P</text>
+                        <!-- Letter J -->
+                        <text x="80" y="70" class="logo-text" font-size="56" font-weight="bold">J</text>
+                        
+                        <!-- Decorative gold line connecting initials -->
+                        <line x1="65" y1="60" x2="75" y2="60" stroke="var(--accent-color)" stroke-width="2" opacity="0.8"/>
+                        
+                        <!-- Gold accent dots -->
+                        <circle cx="35" cy="60" r="2.5" fill="var(--accent-color)"/>
+                        <circle cx="85" cy="60" r="2.5" fill="var(--accent-color)"/>
+                    </svg>
+                </div>
+                <h1>Puneeth Joseph</h1>
+                <h2>Principal Software Engineer</h2>
+                <div class="contact-info">
+                    <a href="mailto:puneeth.joseph@yahoo.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="tel:+4915112421175"><i class="fas fa-phone"></i> Phone</a>
+                    <a href="https://www.linkedin.com/in/puneethjoseph" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/puneethjoseph" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="" id="resume-download" download><i class="fas fa-file-pdf"></i> <span id="resume-download-text">Download Resume</span></a>
+                    <span><i class="fas fa-map-marker-alt"></i> Stuttgart, 73760 DE</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-user-circle"></i>
+                    Professional Summary
+                </h2>
+                <p class="summary">
+                    Principal Software Engineer with 14+ years of experience specializing in automotive operating systems and ADAS Domain Controller development. Led development and integration of MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform enabling software-driven architecture. Expert in software-driven vehicle architecture integration, Adaptive AUTOSAR, QNX, Linux, and embedded systems architecture. Proven track record at Mercedes-Benz Group and Robert Bosch, delivering next-generation software-driven automotive platforms integrating multiple sensor technologies (Cameras, Radar, Lidar, Ultrasonic). Strong background in software architecture, system integration, and cross-functional collaboration with platform teams, application developers and external partners.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-code"></i>
+                    Technical Skills
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-car"></i> Automotive Software Architecture</h3>
+                        <ul>
+                            <li>MB.OS (Mercedes-Benz Operating System)</li>
+                            <li>Software-Driven Architecture</li>
+                            <li>Adaptive AUTOSAR, AUTOSAR Classic</li>
+                            <li>QNX, Linux, POSIX Systems</li>
+                            <li>Service-Oriented Architecture (SOA)</li>
+                            <li>Embedded Software Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Programming & Scripting</h3>
+                        <ul>
+                            <li>C++, C</li>
+                            <li>Shell Scripting</li>
+                            <li>Python (automation & tooling)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Development Tools & Platforms</h3>
+                        <ul>
+                            <li>QNX Momentics IDE</li>
+                            <li>Nvidia Drive Platform (Orin SoC)</li>
+                            <li>Debugging Tools (GDB, JTAG)</li>
+                            <li>CI/CD Tools</li>
+                            <li>Git, SVN</li>
+                            <li>Hypervisor Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> Domain Expertise</h3>
+                        <ul>
+                            <li>MB.OS Development & Integration</li>
+                            <li>ADAS Domain Controllers</li>
+                            <li>ECU Development & Integration</li>
+                            <li>Virtual ECU (vECU) Development</li>
+                            <li>Image Processing (CNN, SSD)</li>
+                            <li>Sensor Integration</li>
+                            <li>Navigation Systems Middleware</li>
+                            <li>Over-the-Air (OTA) Updates</li>
+                            <li>Level 3 Autonomous Driving Systems</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-project-diagram"></i> Methodologies</h3>
+                        <ul>
+                            <li>Software Development Lifecycle (SDLC)</li>
+                            <li>Agile/Scrum</li>
+                            <li>Software Architecture Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i>
+                    Professional Experience
+                </h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Principal Software Integrator</div>
+                            <div class="company">Mercedes-Benz Group</div>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Stuttgart, Germany</div>
+                        </div>
+                        <div class="job-date">July 2021 - October 2025 </div>
+                    </div>
+                    <p class="job-description">
+                        Lead Software Integrator for Mercedes-Benz Operating System (MB.OS) development and ADAS Domain Controller projects, delivering next-generation software-driven architecture and platform solutions integrating Linux, QNX, AUTOSAR Classic, and AUTOSAR Adaptive systems.
+                    </p>
+                    <ul class="job-achievements">
+                        <li>Developed and integrated MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform for the Mercedes Modular Architecture (MMA), enabling software-driven architecture with over-the-air updates and full software stack control</li>
+                        <li>Developed and integrated multi-sensor ADAS platform supporting Cameras, Ultrasonic sensors, Radar, and Lidar technologies. Integrated dual-OS architecture (QNX for production safety-critical systems and Linux for development) and Nvidia Drive platform with Orin system-on-chip (SoC) for advanced computing capabilities, supporting Level 3 autonomous driving features</li>
+                        <li>Collaborated with platform teams, application developers, and external partners (including Nvidia) to define software architecture and integration strategies</li>
+                        <li>Maintained and released Bring-Up Software for Release Boards, enabling pre-delivery evaluation and validation of release software</li>
+                        <li>Served as Technical Contact Partner for internal and external customers, providing expertise on software integration and troubleshooting</li>
+                        <li>Customized QNX OS for custom ECU hardware from Nvidia and Qualcomm using QNX Momentics IDE</li>
+                        <li>Designed embedded software architecture for microprocessor-based automotive systems</li>
+                        <li>Implemented Service-Oriented Architecture solutions for embedded domain</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Specialist Software Engineer</div>
+                            <div class="company">Robert Bosch Engineering and Business Solutions</div>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, India</div>
+                        </div>
+                        <div class="job-date">August 2013 - June 2021</div>
+                    </div>
+                    <p class="job-description">
+                        Developed ADAS software components and middleware solutions for automotive ECUs, working on cutting-edge projects including Virtual ECU development and AI-based object detection systems.
+                    </p>
+                    <ul class="job-achievements">
+                        <li>Developed virtual ECU (vECU) software solutions for multiple OEMs, enabling simulation and testing of real ECU functionality</li>
+                        <li>Designed and optimized Adaptive AUTOSAR-based applications for real-time object detection, processing frame data from camera sensors</li>
+                        <li>Deployed deep learning algorithms (CNN and SSD) for object detection and classification on High Performance Computing platforms</li>
+                        <li>Contributed to middleware development for navigation systems, implementing both basic and advanced navigation features</li>
+                        <li>Architected Proof of Concept (POC) solution integrating Android, Telematics (QNX), and Bosch Navigation System (Linux) using Hypervisor technology</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Software Developer</div>
+                            <div class="company">Wipro Technologies</div>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, India</div>
+                        </div>
+                        <div class="job-date">August 2010 - July 2013</div>
+                    </div>
+                    <p class="job-description">
+                        Led platform migration project, porting EVDO application software from Solaris to Linux-based hardware platform.
+                    </p>
+                    <ul class="job-achievements">
+                        <li>Successfully ported C++ application codebase and shell scripts from Solaris to Linux platform</li>
+                        <li>Implemented Linux-specific wrappers for shell commands, ensuring seamless functionality across platforms</li>
+                        <li>Resolved endianness compatibility issues in C++ codebase for cross-platform support</li>
+                        <li>Enhanced application features during migration process</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-rocket"></i>
+                    Key Projects
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-title">Mercedes-Benz Operating System (MB.OS)</div>
+                        <p class="project-description">
+                            Led development and integration of MB.OS, a Linux and QNX-based operating system for Mercedes Modular Architecture (MMA), enabling software-driven architecture. Developed and integrated dual-OS integration where QNX handles production safety-critical systems and Linux handles development. Integrated Nvidia Drive platform with Orin SoC for advanced computing and Level 3 autonomous driving capabilities. Enabled over-the-air updates
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MB.OS</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">QNX</span>
+                            <span class="tech-tag">Nvidia Drive</span>
+                            <span class="tech-tag">OTA Updates</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-title">Multi-Sensor ADAS Integration</div>
+                        <p class="project-description">
+                            Developed and integrated comprehensive ADAS platform supporting multiple sensor technologies including cameras, radar, lidar, and ultrasonic sensors for next-generation autonomous driving systems.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">ADAS</span>
+                            <span class="tech-tag">Sensor Fusion</span>
+                            <span class="tech-tag">AUTOSAR</span>
+                            <span class="tech-tag">QNX</span>
+                            <span class="tech-tag">Linux</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-title">Virtual ECU (vECU) Development</div>
+                        <p class="project-description">
+                            Developed virtual ECU software solutions for multiple OEMs, enabling comprehensive simulation and testing of real ECU functionality without physical hardware requirements.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">vECU</span>
+                            <span class="tech-tag">Simulation</span>
+                            <span class="tech-tag">Testing</span>
+                            <span class="tech-tag">C++</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-title">AI-Based Object Detection System</div>
+                        <p class="project-description">
+                            Designed and optimized Adaptive AUTOSAR-based applications deploying deep learning algorithms (CNN and SSD) for real-time object detection and classification on high-performance computing platforms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">SSD</span>
+                            <span class="tech-tag">Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-rocket"></i>
+                    Personal Projects
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-card contra-teaser-card">
+                        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 28px; height: 28px; color: white;">
+                                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div style="flex: 1;">
+                                <div class="project-title" style="margin-bottom: 5px;">ConTra - Contracts Tracker</div>
+                                <div style="color: var(--accent-color); font-size: 0.9em; font-weight: 500;">
+                                    <i class="fas fa-mobile-alt"></i> iOS & macOS App
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description" style="margin-bottom: 20px;">
+                            Contract and subscription management platform for macOS and iOS. Designed with intuitive user experience and robust security architecture, the platform simplifies financial tracking and management of contracts, subscriptions, rental agreements, and insurance policies. Built on a privacy-first foundation with advanced analytics and comprehensive reporting capabilities.
+                        </p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; align-items: center;">
+                            <div style="display: flex; align-items: center; gap: 6px; padding: 6px 12px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.1), rgba(44, 82, 130, 0.1)); border-radius: 8px; font-size: 0.85em;">
+                                <i class="fas fa-shield-alt" style="color: var(--primary-color);"></i>
+                                <span style="color: var(--text-light);">Privacy First</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 6px; padding: 6px 12px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.1), rgba(44, 82, 130, 0.1)); border-radius: 8px; font-size: 0.85em;">
+                                <i class="fas fa-chart-line" style="color: var(--primary-color);"></i>
+                                <span style="color: var(--text-light);">Smart Analytics</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 6px; padding: 6px 12px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.1), rgba(44, 82, 130, 0.1)); border-radius: 8px; font-size: 0.85em;">
+                                <i class="fas fa-camera" style="color: var(--primary-color);"></i>
+                                <span style="color: var(--text-light);">Camera Scanning</span>
+                            </div>
+                        </div>
+                        <div class="project-tech" style="margin-bottom: 20px;">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">SwiftUI</span>
+                            <span class="tech-tag">macOS</span>
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Core Data</span>
+                        </div>
+                        <a href="" id="contra-link" class="submit-btn" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; width: 100%; justify-content: center; margin-top: 10px;">
+                            <span>Learn More About ConTra</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Education
+                </h2>
+                <div class="education-item">
+                    <div class="education-degree">Bachelor of Engineering in Information Science</div>
+                    <div class="education-school">Visvesvaraya Technological University</div>
+                    <div class="location"><i class="fas fa-map-marker-alt"></i> Bengaluru, India</div>
+                    <div class="education-date">July 2007 - June 2010</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-certificate"></i>
+                    Certifications
+                </h2>
+                <div class="certification-item">
+                    <div class="certification-name">Certified Scrum Product Owner® (CSPO®)</div>
+                    <div class="certification-org">Scrum Alliance</div>
+                    <div class="certification-date">December 2023</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </h2>
+                <p style="margin-bottom: 30px; color: var(--text-light); font-size: 1.1em; text-align: center;">
+                    Interested in collaboration or have questions? Feel free to reach out!
+                </p>
+                <div style="text-align: center; margin: 40px 0;">
+                    <a href="mailto:puneeth.joseph@yahoo.com?subject=Contact%20from%20Website" 
+                       class="submit-btn" 
+                       style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; padding: 15px 40px; font-size: 1.1em;">
+                        <i class="fas fa-envelope"></i>
+                        Send Email
+                    </a>
+                </div>
+                <p style="text-align: center; color: var(--text-light); font-size: 0.95em; margin-top: 20px;">
+                    <i class="fas fa-info-circle" style="color: var(--accent-color);"></i>
+                    Clicking the button will open your email client
+                </p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-info-circle"></i>
+                    Additional Information
+                </h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-language"></i> Languages</h4>
+                        <p>English (Fluent)<br>German (Working Proficiency)<br>Hindi (Native)</p>
+                    </div>
+                    <div class="info-card">
+                        <h4><i class="fas fa-users"></i> Leadership</h4>
+                        <p>Technical Lead<br>Cross-functional Collaboration<br>Mentoring & Training</p>
+                    </div>
+                    <div class="info-card">
+                        <h4><i class="fas fa-trophy"></i> Achievements</h4>
+                        <p>14+ Years Experience<br>Multiple OEM Projects<br>Innovation Awards</p>
+                    </div>
+                </div>
+                <div style="margin-top: 25px;">
+                    <h4 style="color: var(--primary-color); margin-bottom: 15px; font-size: 1.2em;">
+                        <i class="fas fa-heart"></i> Interests
+                    </h4>
+                    <div class="interests">
+                        <span class="interest-tag">Reading</span>
+                        <span class="interest-tag">Performance Monitoring</span>
+                        <span class="interest-tag">Football</span>
+                        <span class="interest-tag">Technology Research</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2025 Puneeth Joseph. All rights reserved.</p>
+            <p>
+                <a href="mailto:puneeth.joseph@yahoo.com">Contact</a> | 
+                <a href="https://www.linkedin.com/in/puneethjoseph" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+                <a href="https://github.com/puneethjoseph" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Configuration File -->
+    <script src="config.js"></script>
+    
+    <script>
+        // Translation Data
+        const translations = {
+            en: {
+                // Meta tags
+                title: "Puneeth Joseph - Principal Software Integrator | ADAS & Automotive Software Expert",
+                metaDescription: "Principal Software Engineer with 14+ years of experience. Led MB.OS (Mercedes-Benz Operating System) development and software-driven architecture integration. Expert in ADAS Domain Controllers, Adaptive AUTOSAR, QNX, Linux, and automotive software integration. Formerly at Mercedes-Benz Group.",
+                ogDescription: "Principal Software Engineer. Led MB.OS (Mercedes-Benz Operating System) development and software-driven architecture integration. Expert in ADAS Domain Controllers, Adaptive AUTOSAR, QNX, Linux, and embedded systems.",
+                twitterDescription: "Principal Software Engineer specializing in ADAS Domain Controller development and automotive software integration.",
+                // Header
+                jobTitle: "Leitender Software-Ingenieur",
+                email: "Email",
+                phone: "Phone",
+                // Sections
+                professionalSummary: "Professional Summary",
+                technicalSkills: "Technical Skills",
+                professionalExperience: "Professional Experience",
+                keyProjects: "Key Projects",
+                personalProjects: "Personal Projects",
+                education: "Education",
+                certifications: "Certifications",
+                getInTouch: "Get In Touch",
+                additionalInformation: "Additional Information",
+                // Content
+                summaryText: "Principal Software Engineer with 14+ years of experience specializing in automotive operating systems and ADAS Domain Controller development. Led development and integration of MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform enabling software-driven architecture. Expert in software-driven vehicle architecture integration, Adaptive AUTOSAR, QNX, Linux, and embedded systems architecture. Proven track record at Mercedes-Benz Group and Robert Bosch, delivering next-generation software-driven automotive platforms integrating multiple sensor technologies (Cameras, Radar, Lidar, Ultrasonic). Strong background in software architecture, system integration, and cross-functional collaboration with platform teams, application developers and external partners.",
+                automotiveSoftwareArchitecture: "Automotive Software Architecture",
+                programmingScripting: "Programming & Scripting",
+                developmentTools: "Development Tools & Platforms",
+                domainExpertise: "Domain Expertise",
+                methodologies: "Methodologies",
+                // Experience - Job Titles
+                principalSoftwareIntegrator: "Principal Software Integrator",
+                specialistSoftwareEngineer: "Specialist Software Engineer",
+                softwareDeveloper: "Software Developer",
+                // Experience - Job Descriptions
+                leadSoftwareIntegrator: "Lead Software Integrator for Mercedes-Benz Operating System (MB.OS) development and ADAS Domain Controller projects, delivering next-generation software-driven architecture and platform solutions integrating Linux, QNX, AUTOSAR Classic, and AUTOSAR Adaptive systems.",
+                adasSoftwareComponents: "Developed ADAS software components and middleware solutions for automotive ECUs, working on cutting-edge projects including Virtual ECU development and AI-based object detection systems.",
+                platformMigration: "Led platform migration project, porting EVDO application software from Solaris to Linux-based hardware platform.",
+                // Experience - Mercedes-Benz Achievements
+                mbosIntegration: "Developed and integrated MB.OS (Mercedes-Benz Operating System), a Linux and QNX-based platform for the Mercedes Modular Architecture (MMA), enabling software-driven architecture with over-the-air updates and full software stack control",
+                multiSensorADASIntegration: "Developed and integrated multi-sensor ADAS platform supporting Cameras, Ultrasonic sensors, Radar, and Lidar technologies. Integrated dual-OS architecture (QNX for production safety-critical systems and Linux for development) and Nvidia Drive platform with Orin system-on-chip (SoC) for advanced computing capabilities, supporting Level 3 autonomous driving features",
+                collaboratedPlatformTeams: "Collaborated with platform teams, application developers, and external partners (including Nvidia) to define software architecture and integration strategies",
+                maintainedBringUp: "Maintained and released Bring-Up Software for Release Boards, enabling pre-delivery evaluation and validation of release software",
+                technicalContactPartner: "Served as Technical Contact Partner for internal and external customers, providing expertise on software integration and troubleshooting",
+                customizedQNX: "Customized QNX OS for custom ECU hardware from Nvidia and Qualcomm using QNX Momentics IDE",
+                designedEmbeddedArchitecture: "Designed embedded software architecture for microprocessor-based automotive systems",
+                implementedSOA: "Implemented Service-Oriented Architecture solutions for embedded domain",
+                // Experience - Bosch Achievements
+                developedVECU: "Developed virtual ECU (vECU) software solutions for multiple OEMs, enabling simulation and testing of real ECU functionality",
+                designedAdaptiveAUTOSAR: "Designed and optimized Adaptive AUTOSAR-based applications for real-time object detection, processing frame data from camera sensors",
+                deployedDeepLearning: "Deployed deep learning algorithms (CNN and SSD) for object detection and classification on High Performance Computing platforms",
+                contributedMiddleware: "Contributed to middleware development for navigation systems, implementing both basic and advanced navigation features",
+                architectedPOC: "Architected Proof of Concept (POC) solution integrating Android, Telematics (QNX), and Bosch Navigation System (Linux) using Hypervisor technology",
+                // Experience - Wipro Achievements
+                portedApplication: "Successfully ported C++ application codebase and shell scripts from Solaris to Linux platform",
+                implementedLinuxWrappers: "Implemented Linux-specific wrappers for shell commands, ensuring seamless functionality across platforms",
+                resolvedEndianness: "Resolved endianness compatibility issues in C++ codebase for cross-platform support",
+                enhancedApplication: "Enhanced application features during migration process",
+                // Projects
+                mbosDescription: "Led development and integration of MB.OS, a Linux and QNX-based operating system for Mercedes Modular Architecture (MMA), enabling software-driven architecture. Developed and integrated dual-OS integration where QNX handles production safety-critical systems and Linux handles development. Integrated Nvidia Drive platform with Orin SoC for advanced computing and Level 3 autonomous driving capabilities. Enabled over-the-air updates",
+                multiSensorADAS: "Developed and integrated comprehensive ADAS platform supporting multiple sensor technologies including cameras, radar, lidar, and ultrasonic sensors for next-generation autonomous driving systems.",
+                vecuDescription: "Developed virtual ECU software solutions for multiple OEMs, enabling comprehensive simulation and testing of real ECU functionality without physical hardware requirements.",
+                aiObjectDetection: "Designed and optimized Adaptive AUTOSAR-based applications deploying deep learning algorithms (CNN and SSD) for real-time object detection and classification on high-performance computing platforms.",
+                contraDescription: "Contract and subscription management platform for macOS and iOS. Designed with intuitive user experience and robust security architecture, the platform simplifies financial tracking and management of contracts, subscriptions, rental agreements, and insurance policies. Built on a privacy-first foundation with advanced analytics and comprehensive reporting capabilities.",
+                learnMoreContra: "Learn More About ConTra",
+                // Education
+                bachelorDegree: "Bachelor of Engineering in Information Science",
+                // Certifications
+                cspo: "Certified Scrum Product Owner® (CSPO®)",
+                // Get In Touch
+                interestedInCollaboration: "Interested in collaboration or have questions? Feel free to reach out!",
+                sendEmail: "Send Email",
+                clickingButton: "Clicking the button will open your email client",
+                // Additional Information
+                languages: "Languages",
+                leadership: "Leadership",
+                achievements: "Achievements",
+                interests: "Interests",
+                // Languages content
+                englishFluent: "English (Fluent)",
+                germanWorking: "German (Working Proficiency)",
+                hindiNative: "Hindi (Native)",
+                // Leadership content
+                technicalLead: "Technical Lead",
+                crossFunctional: "Cross-functional Collaboration",
+                mentoringTraining: "Mentoring & Training",
+                // Achievements content
+                yearsExperience: "14+ Years Experience",
+                multipleOEMProjects: "Multiple OEM Projects",
+                innovationAwards: "Innovation Awards",
+                // Interests content
+                reading: "Reading",
+                performanceMonitoring: "Performance Monitoring",
+                football: "Football",
+                technologyResearch: "Technology Research",
+                // Footer
+                allRightsReserved: "All rights reserved.",
+                contact: "Contact",
+                // Resume Download
+                downloadResume: "Download Resume",
+                // Locations
+                stuttgartGermany: "Stuttgart, Germany",
+                stuttgartDE: "Stuttgart, 73760 DE",
+                bengaluruIndia: "Bengaluru, India",
+                // Dates
+                july2021October2025: "July 2021 - October 2025",
+                august2013June2021: "August 2013 - June 2021",
+                august2010July2013: "August 2010 - July 2013",
+                july2007June2010: "July 2007 - June 2010",
+                december2023: "December 2023"
+            },
+            de: {
+                // Meta tags
+                title: "Puneeth Joseph - Leitender Software-Integrator | ADAS & Automotive Software Experte",
+                metaDescription: "Leitender Software-Ingenieur mit über 14 Jahren Erfahrung. Leitete die Entwicklung und Integration von MB.OS (Mercedes-Benz Operating System) und softwaregesteuerte Architekturintegration. Experte für ADAS Domain Controller, Adaptive AUTOSAR, QNX, Linux und Automotive Software Integration. Ehemals bei Mercedes-Benz Group.",
+                ogDescription: "Leitender Software-Ingenieur. Leitete die Entwicklung und Integration von MB.OS (Mercedes-Benz Operating System) und softwaregesteuerte Architekturintegration. Experte für ADAS Domain Controller, Adaptive AUTOSAR, QNX, Linux und Embedded Systems.",
+                twitterDescription: "Leitender Software-Ingenieur mit Schwerpunkt auf ADAS Domain Controller Entwicklung und Automotive Software Integration.",
+                // Header
+                jobTitle: "Leitender Software-Ingenieur",
+                email: "E-Mail",
+                phone: "Telefon",
+                // Sections
+                professionalSummary: "Berufliche Zusammenfassung",
+                technicalSkills: "Technische Fähigkeiten",
+                professionalExperience: "Berufserfahrung",
+                keyProjects: "Wichtige Projekte",
+                personalProjects: "Persönliche Projekte",
+                education: "Ausbildung",
+                certifications: "Zertifizierungen",
+                getInTouch: "Kontakt aufnehmen",
+                additionalInformation: "Zusätzliche Informationen",
+                // Content
+                summaryText: "Leitender Software-Ingenieur mit über 14 Jahren Erfahrung, spezialisiert auf Automotive-Betriebssysteme und ADAS Domain Controller Entwicklung. Leitete die Entwicklung und Integration von MB.OS (Mercedes-Benz Operating System), einer Linux- und QNX-basierten Plattform, die softwaregesteuerte Architektur ermöglicht. Experte für softwaregesteuerte Fahrzeugarchitektur-Integration, Adaptive AUTOSAR, QNX, Linux und Embedded Systems Architektur. Bewährte Erfolgsbilanz bei Mercedes-Benz Group und Robert Bosch, Lieferung von Software-gesteuerten Automotive-Plattformen der nächsten Generation, die mehrere Sensortechnologien integrieren (Kameras, Radar, Lidar, Ultraschall). Starker Hintergrund in Software-Architektur, Systemintegration und funktionsübergreifender Zusammenarbeit mit Plattformteams, Anwendungsentwicklern und externen Partnern.",
+                automotiveSoftwareArchitecture: "Automotive Software Architektur",
+                programmingScripting: "Programmierung & Skripting",
+                developmentTools: "Entwicklungstools & Plattformen",
+                domainExpertise: "Domain-Expertise",
+                methodologies: "Methodiken",
+                // Experience - Job Titles
+                principalSoftwareIntegrator: "Leitender Software-Integrator",
+                specialistSoftwareEngineer: "Spezialist Software-Ingenieur",
+                softwareDeveloper: "Software-Entwickler",
+                // Experience - Job Descriptions
+                leadSoftwareIntegrator: "Leitender Software Integrator für Mercedes-Benz Operating System (MB.OS) Entwicklung und ADAS Domain Controller Projekte, Lieferung von softwaregesteuerte Architektur und Plattformlösungen der nächsten Generation, die Linux, QNX, AUTOSAR Classic und AUTOSAR Adaptive Systeme integrieren.",
+                adasSoftwareComponents: "Entwickelte ADAS Software-Komponenten und Middleware-Lösungen für Automotive ECUs, arbeitete an innovativen Projekten einschließlich Virtual ECU Entwicklung und KI-basierte Objekterkennungssysteme.",
+                platformMigration: "Leitete Plattform-Migrationsprojekt, Portierung von EVDO-Anwendungssoftware von Solaris auf Linux-basierte Hardware-Plattform.",
+                // Experience - Mercedes-Benz Achievements
+                mbosIntegration: "Entwickelte und integrierte MB.OS (Mercedes-Benz Operating System), eine Linux- und QNX-basierte Plattform für die Mercedes Modular Architecture (MMA), die softwaregesteuerte Architektur mit Over-the-Air-Updates und vollständiger Software-Stack-Kontrolle ermöglicht",
+                multiSensorADASIntegration: "Entwickelte und integrierte Multi-Sensor ADAS-Plattform, die Kameras, Ultraschallsensoren, Radar- und Lidar-Technologien unterstützt. Integrierte Dual-OS-Architektur (QNX für produktionskritische Sicherheitssysteme und Linux für Entwicklung) und Nvidia Drive Plattform mit Orin System-on-Chip (SoC) für erweiterte Rechenleistung, unterstützt Level 3 autonome Fahrfunktionen",
+                collaboratedPlatformTeams: "Zusammenarbeit mit Plattformteams, Anwendungsentwicklern und externen Partnern (einschließlich Nvidia) zur Definition von Software-Architektur und Integrationsstrategien",
+                maintainedBringUp: "Wartete und veröffentlichte Bring-Up-Software für Release-Boards, ermöglichte Vorab-Evaluierung und Validierung von Release-Software",
+                technicalContactPartner: "Diente als technischer Kontaktpartner für interne und externe Kunden, bot Expertise in Software-Integration und Fehlerbehebung",
+                customizedQNX: "Anpassung von QNX OS für kundenspezifische ECU-Hardware von Nvidia und Qualcomm mit QNX Momentics IDE",
+                designedEmbeddedArchitecture: "Entwarf Embedded-Software-Architektur für mikroprozessorbasierte Automotive-Systeme",
+                implementedSOA: "Implementierte Service-Oriented Architecture Lösungen für Embedded-Domain",
+                // Experience - Bosch Achievements
+                developedVECU: "Entwickelte Virtual ECU (vECU) Software-Lösungen für mehrere OEMs, ermöglichte Simulation und Tests der realen ECU-Funktionalität",
+                designedAdaptiveAUTOSAR: "Entwarf und optimierte Adaptive AUTOSAR-basierte Anwendungen für Echtzeit-Objekterkennung, Verarbeitung von Frame-Daten von Kamerasensoren",
+                deployedDeepLearning: "Einsatz von Deep-Learning-Algorithmen (CNN und SSD) für Objekterkennung und -klassifizierung auf Hochleistungsrechenplattformen",
+                contributedMiddleware: "Beitrag zur Middleware-Entwicklung für Navigationssysteme, Implementierung von grundlegenden und erweiterten Navigationsfunktionen",
+                architectedPOC: "Architekturierte Proof of Concept (POC) Lösung, die Android, Telematik (QNX) und Bosch Navigationssystem (Linux) mit Hypervisor-Technologie integriert",
+                // Experience - Wipro Achievements
+                portedApplication: "Erfolgreiche Portierung von C++ Anwendungscodebasis und Shell-Skripten von Solaris auf Linux-Plattform",
+                implementedLinuxWrappers: "Implementierte Linux-spezifische Wrapper für Shell-Befehle, gewährleistete nahtlose Funktionalität plattformübergreifend",
+                resolvedEndianness: "Löste Endianness-Kompatibilitätsprobleme in C++ Codebasis für plattformübergreifende Unterstützung",
+                enhancedApplication: "Verbesserte Anwendungsfunktionen während des Migrationsprozesses",
+                // Projects
+                mbosDescription: "Leitete die Entwicklung und Integration von MB.OS, einem Linux- und QNX-basierten Betriebssystem für Mercedes Modular Architecture (MMA), das softwaregesteuerte Architektur ermöglicht. Entwickelte und integrierte Dual-OS-Integration, bei der QNX produktionskritische Sicherheitssysteme verwaltet und Linux die Entwicklung übernimmt. Integrierte Nvidia Drive Plattform mit Orin SoC für erweiterte Rechenleistung und Level 3 autonome Fahrfunktionen. Ermöglichte Over-the-Air-Updates",
+                multiSensorADAS: "Entwickelte und integrierte umfassende ADAS-Plattform, die mehrere Sensortechnologien unterstützt, einschließlich Kameras, Radar, Lidar und Ultraschallsensoren für autonome Fahrzeugsysteme der nächsten Generation.",
+                vecuDescription: "Entwickelte Virtual ECU Software-Lösungen für mehrere OEMs, ermöglichte umfassende Simulation und Tests der realen ECU-Funktionalität ohne physische Hardware-Anforderungen.",
+                aiObjectDetection: "Entwarf und optimierte Adaptive AUTOSAR-basierte Anwendungen, die Deep-Learning-Algorithmen (CNN und SSD) für Echtzeit-Objekterkennung und -klassifizierung auf Hochleistungsrechenplattformen einsetzen.",
+                contraDescription: "Vertrags- und Abonnementverwaltungsplattform für macOS und iOS. Entwickelt mit intuitiver Benutzererfahrung und robuster Sicherheitsarchitektur, vereinfacht die Plattform die Finanzverfolgung und Verwaltung von Verträgen, Abonnements, Mietverträgen und Versicherungspolicen. Aufgebaut auf einer Privacy-First-Grundlage mit erweiterten Analyse- und umfassenden Berichtsfunktionen.",
+                learnMoreContra: "Mehr über ConTra erfahren",
+                // Education
+                bachelorDegree: "Bachelor of Engineering in Information Science",
+                // Certifications
+                cspo: "Certified Scrum Product Owner® (CSPO®)",
+                // Get In Touch
+                interestedInCollaboration: "Interessiert an Zusammenarbeit oder haben Sie Fragen? Kontaktieren Sie mich gerne!",
+                sendEmail: "E-Mail senden",
+                clickingButton: "Durch Klicken auf die Schaltfläche wird Ihr E-Mail-Client geöffnet",
+                // Additional Information
+                languages: "Sprachen",
+                leadership: "Führung",
+                achievements: "Erfolge",
+                interests: "Interessen",
+                // Languages content
+                englishFluent: "Englisch (Fließend)",
+                germanWorking: "Deutsch (Berufssprachkenntnisse)",
+                hindiNative: "Hindi (Muttersprache)",
+                // Leadership content
+                technicalLead: "Technischer Leiter",
+                crossFunctional: "Funktionsübergreifende Zusammenarbeit",
+                mentoringTraining: "Mentoring & Schulung",
+                // Achievements content
+                yearsExperience: "14+ Jahre Erfahrung",
+                multipleOEMProjects: "Mehrere OEM-Projekte",
+                innovationAwards: "Innovationspreise",
+                // Interests content
+                reading: "Lesen",
+                performanceMonitoring: "Leistungsüberwachung",
+                football: "Fußball",
+                technologyResearch: "Technologieforschung",
+                // Footer
+                allRightsReserved: "Alle Rechte vorbehalten.",
+                contact: "Kontakt",
+                // Resume Download
+                downloadResume: "Lebenslauf herunterladen",
+                // Locations
+                stuttgartGermany: "Stuttgart, Deutschland",
+                stuttgartDE: "Stuttgart, 73760 Deutschland",
+                bengaluruIndia: "Bengaluru, Indien",
+                // Dates
+                july2021October2025: "Juli 2021 - Oktober 2025",
+                august2013June2021: "August 2013 - Juni 2021",
+                august2010July2013: "August 2010 - Juli 2013",
+                july2007June2010: "Juli 2007 - Juni 2010",
+                december2023: "Dezember 2023"
+            }
+        };
+
+        // Current language
+        let currentLang = 'en';
+
+        // Update resume download link based on current language
+        function updateResumeDownloadLink() {
+            const resumeDownload = document.getElementById('resume-download');
+            if (resumeDownload && config) {
+                resumeDownload.href = currentLang === 'de' ? config.resumePdfUrlDe : config.resumePdfUrlEn;
+            }
+        }
+
+        // Language Toggle Functionality
+        function toggleLanguage() {
+            currentLang = currentLang === 'en' ? 'de' : 'en';
+            localStorage.setItem('language', currentLang);
+            updateLanguage();
+        }
+
+        // Update page language
+        function updateLanguage() {
+            const lang = translations[currentLang];
+            const langText = document.getElementById('language-text');
+            
+            // Update language toggle text
+            langText.textContent = currentLang.toUpperCase();
+            
+            // Update HTML lang attribute
+            document.documentElement.lang = currentLang;
+            
+            // Update meta tags
+            document.title = lang.title;
+            document.querySelector('meta[name="description"]').setAttribute('content', lang.metaDescription);
+            document.querySelector('meta[property="og:title"]').setAttribute('content', lang.title);
+            document.querySelector('meta[property="og:description"]').setAttribute('content', lang.ogDescription);
+            document.querySelector('meta[property="twitter:title"]').setAttribute('content', lang.title);
+            document.querySelector('meta[property="twitter:description"]').setAttribute('content', lang.twitterDescription);
+            
+            // Update header
+            document.querySelector('h2').textContent = lang.jobTitle;
+            const contactLinks = document.querySelectorAll('.contact-info a');
+            if (contactLinks.length > 0) {
+                contactLinks[0].innerHTML = `<i class="fas fa-envelope"></i> ${lang.email}`;
+                contactLinks[1].innerHTML = `<i class="fas fa-phone"></i> ${lang.phone}`;
+            }
+            // Update header location
+            const headerLocation = document.querySelector('.contact-info span');
+            if (headerLocation) {
+                headerLocation.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${lang.stuttgartDE}`;
+            }
+            
+            // Update resume download button and link
+            const resumeDownloadText = document.getElementById('resume-download-text');
+            if (resumeDownloadText) {
+                resumeDownloadText.textContent = lang.downloadResume;
+            }
+            updateResumeDownloadLink();
+            
+            // Update section titles
+            const sectionTitles = document.querySelectorAll('.section-title');
+            sectionTitles.forEach((title, index) => {
+                const icon = title.querySelector('i');
+                const iconClass = icon ? icon.className : '';
+                if (index === 0) title.innerHTML = `<i class="${iconClass}"></i> ${lang.professionalSummary}`;
+                else if (index === 1) title.innerHTML = `<i class="${iconClass}"></i> ${lang.technicalSkills}`;
+                else if (index === 2) title.innerHTML = `<i class="${iconClass}"></i> ${lang.professionalExperience}`;
+                else if (index === 3) title.innerHTML = `<i class="${iconClass}"></i> ${lang.keyProjects}`;
+                else if (index === 4) title.innerHTML = `<i class="${iconClass}"></i> ${lang.personalProjects}`;
+                else if (index === 5) title.innerHTML = `<i class="${iconClass}"></i> ${lang.education}`;
+                else if (index === 6) title.innerHTML = `<i class="${iconClass}"></i> ${lang.certifications}`;
+                else if (index === 7) title.innerHTML = `<i class="${iconClass}"></i> ${lang.getInTouch}`;
+                else if (index === 8) title.innerHTML = `<i class="${iconClass}"></i> ${lang.additionalInformation}`;
+            });
+            
+            // Update summary
+            const summary = document.querySelector('.summary');
+            if (summary) summary.textContent = lang.summaryText;
+            
+            // Update skill categories
+            const skillCategories = document.querySelectorAll('.skill-category h3');
+            if (skillCategories.length >= 5) {
+                skillCategories[0].innerHTML = `<i class="fas fa-car"></i> ${lang.automotiveSoftwareArchitecture}`;
+                skillCategories[1].innerHTML = `<i class="fas fa-laptop-code"></i> ${lang.programmingScripting}`;
+                skillCategories[2].innerHTML = `<i class="fas fa-tools"></i> ${lang.developmentTools}`;
+                skillCategories[3].innerHTML = `<i class="fas fa-brain"></i> ${lang.domainExpertise}`;
+                skillCategories[4].innerHTML = `<i class="fas fa-project-diagram"></i> ${lang.methodologies}`;
+            }
+            
+            // Update job titles
+            const jobTitles = document.querySelectorAll('.job-title');
+            if (jobTitles.length >= 3) {
+                // Principal Software Integrator (Mercedes-Benz)
+                if (jobTitles[0].textContent.includes('Principal Software Integrator')) {
+                    jobTitles[0].textContent = lang.principalSoftwareIntegrator;
+                }
+                // Specialist Software Engineer (Bosch)
+                if (jobTitles[1].textContent.includes('Specialist Software Engineer')) {
+                    jobTitles[1].textContent = lang.specialistSoftwareEngineer;
+                }
+                // Software Developer (Wipro)
+                if (jobTitles[2].textContent.includes('Software Developer')) {
+                    jobTitles[2].textContent = lang.softwareDeveloper;
+                }
+            }
+            
+            // Update job descriptions
+            const jobDescriptions = document.querySelectorAll('.job-description');
+            if (jobDescriptions.length >= 3) {
+                jobDescriptions[0].textContent = lang.leadSoftwareIntegrator;
+                jobDescriptions[1].textContent = lang.adasSoftwareComponents;
+                jobDescriptions[2].textContent = lang.platformMigration;
+            }
+            
+            // Update achievement bullet points - Mercedes-Benz (8 items)
+            const mbAchievements = document.querySelectorAll('.experience-item:first-of-type .job-achievements li');
+            if (mbAchievements.length >= 8) {
+                mbAchievements[0].textContent = lang.mbosIntegration;
+                mbAchievements[1].textContent = lang.multiSensorADASIntegration;
+                mbAchievements[2].textContent = lang.collaboratedPlatformTeams;
+                mbAchievements[3].textContent = lang.maintainedBringUp;
+                mbAchievements[4].textContent = lang.technicalContactPartner;
+                mbAchievements[5].textContent = lang.customizedQNX;
+                mbAchievements[6].textContent = lang.designedEmbeddedArchitecture;
+                mbAchievements[7].textContent = lang.implementedSOA;
+            }
+            
+            // Update achievement bullet points - Bosch (5 items)
+            const boschAchievements = document.querySelectorAll('.experience-item:nth-of-type(2) .job-achievements li');
+            if (boschAchievements.length >= 5) {
+                boschAchievements[0].textContent = lang.developedVECU;
+                boschAchievements[1].textContent = lang.designedAdaptiveAUTOSAR;
+                boschAchievements[2].textContent = lang.deployedDeepLearning;
+                boschAchievements[3].textContent = lang.contributedMiddleware;
+                boschAchievements[4].textContent = lang.architectedPOC;
+            }
+            
+            // Update achievement bullet points - Wipro (4 items)
+            const wiproAchievements = document.querySelectorAll('.experience-item:nth-of-type(3) .job-achievements li');
+            if (wiproAchievements.length >= 4) {
+                wiproAchievements[0].textContent = lang.portedApplication;
+                wiproAchievements[1].textContent = lang.implementedLinuxWrappers;
+                wiproAchievements[2].textContent = lang.resolvedEndianness;
+                wiproAchievements[3].textContent = lang.enhancedApplication;
+            }
+            
+            // Update locations in experience section
+            const locations = document.querySelectorAll('.location');
+            locations.forEach(location => {
+                const text = location.textContent.trim();
+                if (text.includes('Stuttgart, Germany') || text.includes('Stuttgart, Deutschland')) {
+                    location.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${lang.stuttgartGermany}`;
+                } else if (text.includes('Bengaluru, India') || text.includes('Bengaluru, Indien')) {
+                    location.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${lang.bengaluruIndia}`;
+                }
+            });
+            
+            // Update dates in experience section
+            const jobDates = document.querySelectorAll('.job-date');
+            if (jobDates.length >= 3) {
+                // Mercedes-Benz: July 2021 - October 2025
+                if (jobDates[0].textContent.includes('July 2021') || jobDates[0].textContent.includes('Juli 2021')) {
+                    jobDates[0].textContent = lang.july2021October2025;
+                }
+                // Bosch: August 2013 - June 2021
+                if (jobDates[1].textContent.includes('August 2013') || jobDates[1].textContent.includes('August 2013')) {
+                    jobDates[1].textContent = lang.august2013June2021;
+                }
+                // Wipro: August 2010 - July 2013
+                if (jobDates[2].textContent.includes('August 2010') || jobDates[2].textContent.includes('August 2010')) {
+                    jobDates[2].textContent = lang.august2010July2013;
+                }
+            }
+            
+            // Update education date
+            const educationDate = document.querySelector('.education-date');
+            if (educationDate && (educationDate.textContent.includes('July 2007') || educationDate.textContent.includes('Juli 2007'))) {
+                educationDate.textContent = lang.july2007June2010;
+            }
+            
+            // Update certification date
+            const certificationDate = document.querySelector('.certification-date');
+            if (certificationDate && (certificationDate.textContent.includes('December 2023') || certificationDate.textContent.includes('Dezember 2023'))) {
+                certificationDate.textContent = lang.december2023;
+            }
+            
+            // Update project descriptions
+            const projectDescriptions = document.querySelectorAll('.project-description');
+            if (projectDescriptions.length >= 4) {
+                projectDescriptions[0].textContent = lang.mbosDescription;
+                projectDescriptions[1].textContent = lang.multiSensorADAS;
+                projectDescriptions[2].textContent = lang.vecuDescription;
+                projectDescriptions[3].textContent = lang.aiObjectDetection;
+            }
+            
+            // Update ConTra description
+            const contraDescription = document.querySelector('.contra-teaser-card .project-description');
+            if (contraDescription) contraDescription.textContent = lang.contraDescription;
+            
+            // Update ConTra button and link
+            const contraButton = document.querySelector('.contra-teaser-card .submit-btn span');
+            if (contraButton) contraButton.textContent = lang.learnMoreContra;
+            
+            const contraLink = document.getElementById('contra-link');
+            if (contraLink) {
+                contraLink.href = config.contraUrl;
+            }
+            
+            // Update education
+            const educationDegree = document.querySelector('.education-degree');
+            if (educationDegree) educationDegree.textContent = lang.bachelorDegree;
+            
+            // Update certification
+            const certificationName = document.querySelector('.certification-name');
+            if (certificationName) certificationName.textContent = lang.cspo;
+            
+            // Update Get In Touch section
+            const getInTouchSection = Array.from(document.querySelectorAll('.section')).find(section => {
+                const title = section.querySelector('.section-title');
+                return title && (title.textContent.includes('Get In Touch') || title.textContent.includes('Kontakt aufnehmen'));
+            });
+            if (getInTouchSection) {
+                const getInTouchP = getInTouchSection.querySelector('p');
+                if (getInTouchP && !getInTouchP.querySelector('a')) {
+                    getInTouchP.textContent = lang.interestedInCollaboration;
+                }
+                
+                const sendEmailBtn = getInTouchSection.querySelector('.submit-btn');
+                if (sendEmailBtn) {
+                    sendEmailBtn.innerHTML = `<i class="fas fa-envelope"></i> ${lang.sendEmail}`;
+                }
+                
+                const emailInfo = getInTouchSection.querySelector('p:last-of-type');
+                if (emailInfo && emailInfo.querySelector('.fa-info-circle')) {
+                    emailInfo.innerHTML = `<i class="fas fa-info-circle" style="color: var(--accent-color);"></i> ${lang.clickingButton}`;
+                }
+            }
+            
+            // Update Additional Information
+            const infoCards = document.querySelectorAll('.info-card h4');
+            if (infoCards.length >= 3) {
+                infoCards[0].innerHTML = `<i class="fas fa-language"></i> ${lang.languages}`;
+                infoCards[1].innerHTML = `<i class="fas fa-users"></i> ${lang.leadership}`;
+                infoCards[2].innerHTML = `<i class="fas fa-trophy"></i> ${lang.achievements}`;
+            }
+            
+            // Update Languages content
+            const languagesCard = document.querySelectorAll('.info-card')[0];
+            if (languagesCard) {
+                const languagesP = languagesCard.querySelector('p');
+                if (languagesP) {
+                    languagesP.innerHTML = `${lang.englishFluent}<br>${lang.germanWorking}<br>${lang.hindiNative}`;
+                }
+            }
+            
+            // Update Leadership content
+            const leadershipCard = document.querySelectorAll('.info-card')[1];
+            if (leadershipCard) {
+                const leadershipP = leadershipCard.querySelector('p');
+                if (leadershipP) {
+                    leadershipP.innerHTML = `${lang.technicalLead}<br>${lang.crossFunctional}<br>${lang.mentoringTraining}`;
+                }
+            }
+            
+            // Update Achievements content
+            const achievementsCard = document.querySelectorAll('.info-card')[2];
+            if (achievementsCard) {
+                const achievementsP = achievementsCard.querySelector('p');
+                if (achievementsP) {
+                    achievementsP.innerHTML = `${lang.yearsExperience}<br>${lang.multipleOEMProjects}<br>${lang.innovationAwards}`;
+                }
+            }
+            
+            // Update Interests
+            const interestsTitle = document.querySelector('.section:last-of-type h4');
+            if (interestsTitle) interestsTitle.innerHTML = `<i class="fas fa-heart"></i> ${lang.interests}`;
+            
+            const interestTags = document.querySelectorAll('.interest-tag');
+            if (interestTags.length >= 4) {
+                interestTags[0].textContent = lang.reading;
+                interestTags[1].textContent = lang.performanceMonitoring;
+                interestTags[2].textContent = lang.football;
+                interestTags[3].textContent = lang.technologyResearch;
+            }
+            
+            // Update footer
+            const footerLinks = document.querySelectorAll('.footer a');
+            if (footerLinks.length > 0) {
+                footerLinks[0].textContent = lang.contact;
+            }
+        }
+
+        // Theme Toggle Functionality
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+            const icon = document.getElementById('theme-icon');
+            const text = document.getElementById('theme-text');
+            
+            if (document.body.classList.contains('dark-mode')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+                text.textContent = 'Light';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+                text.textContent = 'Dark';
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // Load saved theme and language
+        window.addEventListener('DOMContentLoaded', () => {
+            // Initialize ConTra link
+            const contraLink = document.getElementById('contra-link');
+            if (contraLink) {
+                contraLink.href = config.contraUrl;
+            }
+            
+            // Initialize Resume download link based on language
+            updateResumeDownloadLink();
+            
+            // Load theme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.getElementById('theme-icon').classList.remove('fa-moon');
+                document.getElementById('theme-icon').classList.add('fa-sun');
+                document.getElementById('theme-text').textContent = 'Light';
+            }
+            
+            // Load language
+            const savedLang = localStorage.getItem('language');
+            const browserLang = navigator.language || navigator.userLanguage;
+            const detectedLang = browserLang.startsWith('de') ? 'de' : 'en';
+            currentLang = savedLang || detectedLang;
+            localStorage.setItem('language', currentLang);
+            updateLanguage();
+        });
+
+
+        // Smooth scroll animation on load
+        window.addEventListener('load', () => {
+            const sections = document.querySelectorAll('.section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'fadeInUp 0.6s ease';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+</body>
+</html>
+
