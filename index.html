@@ -1864,6 +1864,10 @@
             }
             
             // Update footer
+            const footerParagraph = document.querySelector('.footer p:first-of-type');
+            if (footerParagraph) {
+                footerParagraph.innerHTML = `&copy; 2025 Puneeth Joseph. ${lang.allRightsReserved}`;
+            }
             const footerLinks = document.querySelectorAll('.footer a');
             if (footerLinks.length > 0) {
                 footerLinks[0].textContent = lang.contact;
