@@ -241,6 +241,14 @@
                 color: #555 !important;
                 text-decoration: none !important;
             }
+            /* Project links look like plain text in PDF */
+            .project-item a {
+                color: #1e3a5f !important;
+                text-decoration: none !important;
+            }
+            .project-item a::after {
+                content: "" !important;
+            }
         }
 
         @media screen {
@@ -399,6 +407,24 @@
                         <li>Resolved endianness compatibility issues in C++ codebase for cross-platform support</li>
                         <li>Enhanced application features during migration process</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">Personal Projects</div>
+            <div class="resume-section-content">
+                <div class="project-item" style="margin-bottom: 15px;">
+                    <div style="font-weight: bold; color: #1e3a5f; margin-bottom: 5px; font-size: 11pt;">
+                        <a href="https://contra.puneethjoseph.in" target="_blank" style="color: #1e3a5f; text-decoration: none;">ConTra - Contracts Tracker</a>
+                    </div>
+                    <div style="font-style: italic; color: #2c5282; margin-bottom: 5px; font-size: 10pt;">iOS & macOS App</div>
+                    <div style="font-size: 10pt; line-height: 1.6; text-align: justify;">
+                        Contract and subscription management platform for macOS and iOS. Designed with intuitive user experience and robust security architecture, the platform simplifies financial tracking and management of contracts, subscriptions, rental agreements, and insurance policies. Built on a privacy-first foundation with advanced analytics and comprehensive reporting capabilities.
+                    </div>
+                    <div style="margin-top: 8px; font-size: 9.5pt; color: #555;">
+                        <strong>Technologies:</strong> Swift, SwiftUI, macOS, iOS, Core Data
+                    </div>
                 </div>
             </div>
         </div>
